@@ -8,6 +8,11 @@ numbers_file.close()
 even_numbers = []
 odd_numbers = []
 # Loop through the numbers list and append even and odd numbers to their respective lists
+for number in numbers_list:
+    if int(number) % 2 == 0:
+        even_numbers.append(number)
+    else:
+        odd_numbers.append(number)
 # Write the even numbers to a file named "even.txt"
 # Write the odd numbers to a file named "odd.txt"
 # Print the output
