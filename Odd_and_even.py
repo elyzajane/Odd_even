@@ -1,4 +1,5 @@
 # Open the file containing numbers
+numbers_file = open("numbers.txt", "r")
 # Read the numbers from the file and split them into a list
 # Close the file
 # Create two empty lists to store even and odd numbers
